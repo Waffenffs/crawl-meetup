@@ -1,0 +1,14 @@
+* {
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #dfdfdf;
+}
+
+html {
+  height: 100%;
+}

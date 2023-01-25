@@ -1,0 +1,141 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  background: #77002e;
+  font-size: 4vh;
+  padding: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #de8ead;
+}
+
+.link:hover {
+  color: white;
+}
+
+#title {
+  margin-right: auto;
+  color: white;
+  font-size: 8vh;
+}
+
+article {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 30px;
+  width: 80vh;
+  transition: 0.8s;
+}
+
+article:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 30vh;
+  margin: 0;
+  padding: 0;
+}
+
+.content,
+.favoriteContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px 10px;
+  gap: 10px;
+}
+
+.title,
+.author,
+.description {
+  margin: 0;
+}
+
+.favoriteButton {
+  cursor: pointer;
+  border: #77002e thin solid;
+  color: #77002e;
+  border-radius: 3px;
+  background: inherit;
+  margin-top: 5vh;
+  width: 20vh;
+}
+
+.favoriteButton:hover {
+  background-color: #77002e;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: white;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 5px;
+  width: 90vh;
+  margin-bottom: 30px;
+}
+
+.meetupTitle,
+.meetupAuthor,
+.meetupDescription,
+.meetupImage,
+.formTitle {
+  color: #40424e;
+}
+
+input {
+  width: 95%;
+  text-indent: 5px;
+}
+
+.inputDesc {
+  height: 10vh;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.addButton {
+  border: 0;
+  background-color:#77002e;
+  color: white;
+  border-radius: 5px;
+  width: 100vh;
+  height: 5vh;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #a50e4d;
+}
+
+form > h1 {
+  font-size: 25px;
+}
